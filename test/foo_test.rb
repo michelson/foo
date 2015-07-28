@@ -7,6 +7,10 @@ class TestFoo < Minitest::Unit::TestCase
     assert_equal "OHAI!", "1"
   end
 
+  def test_that_kitty_can_walk
+    assert_equal "1", "1"
+  end
+
   def test_that_will_be_skipped
     skip "test this later"
   end
